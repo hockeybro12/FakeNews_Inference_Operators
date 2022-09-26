@@ -21,7 +21,7 @@ article_id_to_name.tsv -> This maps the article ID (graph ID) to its name.
 
 article_id_to_source.tsv -> This maps the article ID to its source in the graph.
 
-article_name_to_id.tsv -> This maps the article name to its graph ID. 
+article_name_to_id.npy -> This maps the article name to its graph ID. 
 
 article_name_to_url.npy -> This maps article names to URLs that they can be downloaded at for the full article headline and context. Not all articles are present yet.
 
