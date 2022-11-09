@@ -13,5 +13,6 @@ To cite:
 }
 ```
 
-All data is released as Anonymized. We will provide links to download articles soon. We do provide a file user_twitter_to_id.tsv where you can map our Graph IDs to twitter IDs so you can download the respective Twitter users if necessary. Sources can be scraped based on the `News-Media-Reliability` dataset ((https://github.com/ramybaly/News-Media-Reliability)[href]). We will provide scraping scripts soon.
+All data is released as Anonymized. Articles can be provided by emailing mehta52@purdue.edu and agreeing to our terms of use to respect ethical concerns. We do provide a file user_twitter_to_id.tsv where you can map our Graph IDs to twitter IDs so you can download the respective Twitter users if necessary. Sources can be scraped based on the `News-Media-Reliability` dataset ((https://github.com/ramybaly/News-Media-Reliability)[href]). We will provide scraping scripts soon.
+
 
