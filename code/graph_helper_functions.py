@@ -300,8 +300,8 @@ class FakeNewsDataset(DGLBuiltinDataset):
                 except Exception as e:
                     found_edge = False
                 if not found_edge:
-                    dgl_graph.add_edge(torch.tensor([sid]), torch.tensor([aid]), etype='has_article')
-                    dgl_graph.add_edge(torch.tensor([aid]), torch.tensor([sid]), etype='is_published_by')
+                    dgl_graph.add_edges(torch.tensor([sid]), torch.tensor([aid]), etype='has_article')
+                    dgl_graph.add_edges(torch.tensor([aid]), torch.tensor([sid]), etype='is_published_by')
             
                 # increment the counter that we added the article
                 articles_added += 1
